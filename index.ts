@@ -70,7 +70,10 @@ Bun.serve({
   port: 8080,
   fetch() {
     return new Response(JSON.stringify(resume, null, 2), {
-      headers: { "Content-Type": "application/json; charset=utf-8" },
+      headers: {
+        "Content-Type": "application/json; charset=utf-8",
+        "Pitch": "I'd love to work on cool projects with you!"
+      },
     });
   },
 });
