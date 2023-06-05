@@ -14,5 +14,6 @@ COPY --from=get /usr/local/bin/bun /bin/bun
 RUN ln -s /bin/bun /bin/bunx && chmod 777 /bin/bunx
 WORKDIR /app
 ADD index.ts /app/index.ts
+ADD fallback.html /app/fallback.html
 
 CMD ["bun", "run", "/app/index.ts"]
