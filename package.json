@@ -2,9 +2,8 @@
   "name": "resume",
   "type": "module",
   "module": "index.ts",
-  "dependencies": {},
   "devDependencies": {
-    "bun-types": "^0.6.0"
+    "bun-types": "^0.6.9"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
