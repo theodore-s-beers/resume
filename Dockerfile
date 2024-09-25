@@ -1,4 +1,4 @@
-FROM debian:stable-slim as get
+FROM debian:stable-slim AS get
 
 WORKDIR /bun
 
