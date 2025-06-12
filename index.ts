@@ -2,24 +2,44 @@ import { type Serve } from "bun";
 
 const resume = {
   name: "Theodore S. Beers",
-  tagline: "PhD Persian and Arabic philologist; programmer",
+  tagline: "Research software engineer; PhD Persian & Arabic philologist",
   email: "theo.beers@fu-berlin.de",
-  officeAddress: "Fabeckstraße 23–25, 14195 Berlin, Germany",
+  officeAddress: "Haverford, PA, USA (mailing address TBD)",
   links: {
     website: "https://www.theobeers.com/",
     github: "https://github.com/theodore-s-beers",
-    twitter: "https://twitter.com/theodorebeers",
+    twitter: "https://x.com/theodorebeers",
     scholar: "https://scholar.google.com/citations?user=dqd1ahUAAAAJ",
+    bluesky: "https://bsky.app/profile/katomyomachia.bsky.social",
     keybase: "https://keybase.io/theobeers",
   },
   employment: [
     {
-      from: "2022-12",
+      from: "2024-08",
       to: "present",
-      title: "Postdoctoral Researcher; Software Engineer",
+      title: "Non-Resident Research Fellow",
       institution: "Freie Universität Berlin",
       department: "Seminar for Semitic and Arabic Studies",
-      project: "BUA: “Closing the Gap in Non-Latin-Script Data”",
+      project: "AnonymClassic/Kalīla and Dimna (ERC, Leibniz)",
+      notes: ["TBW"],
+    },
+    {
+      from: "2024-08",
+      to: "2025-06",
+      title: "Research Software Engineer; Associate Researcher",
+      institution: "Drexel University",
+      department: "Colleges of Engineering, Computing & Informatics",
+      project:
+        "Platform for Accessible Data-Intensive Science and Engineering (NSF)",
+      notes: ["TBW"],
+    },
+    {
+      from: "2022-12",
+      to: "2024-08",
+      title: "Postdoctoral Research Fellow; Research Software Engineer",
+      institution: "Freie Universität Berlin",
+      department: "Seminar for Semitic and Arabic Studies",
+      project: "Closing the Gap in Non-Latin-Script Data (DFG/BUA)",
       notes: ["TBW"],
     },
     {
@@ -28,13 +48,13 @@ const resume = {
       title: "Postdoctoral Research Fellow",
       institution: "Freie Universität Berlin",
       department: "Seminar for Semitic and Arabic Studies",
-      project: "ERC: “AnonymClassic”",
+      project: "AnonymClassic/Kalīla and Dimna (ERC, Leibniz)",
       notes: ["TBW"],
     },
     {
       from: "2012-09",
       to: "2018-12",
-      title: "Lecturer; Teaching Assistant",
+      title: "Lecturer; Preceptor; Teaching Assistant",
       institution: "University of Chicago",
       department: "Near Eastern Languages and Civilizations",
       project: null,
@@ -57,14 +77,15 @@ const resume = {
   ],
   naturalLangs: {
     native: ["English"],
-    strong: ["Persian", "Arabic"],
-    intermediate: ["German"],
-    reading: ["French", "Turkish", "Latin"],
+    philological: ["Persian", "Arabic"],
+    strong: ["German"],
+    intermediate: ["French"],
+    reading: ["Turkish", "Latin"],
   },
   programmingLangs: {
-    preferred: ["Rust", "TypeScript", "Go"],
-    accepted: ["JavaScript", "Python"],
-    dabbling: ["F#", "Elixir"],
+    favorite: ["Rust", "TypeScript", "Go"],
+    adept: ["Python", "JavaScript"],
+    dabbling: ["Zig", "Swift", "F#"],
   },
 };
 
