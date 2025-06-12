@@ -95,7 +95,7 @@ export default {
   fetch(req) {
     const resHeaders = new Headers({
       "Content-Type": "application/json; charset=utf-8",
-      Pitch: "I'd love to work on cool projects with you!",
+      "TSB-Pitch": "I'd love to work on cool projects with you!",
     });
 
     const url = new URL(req.url);
