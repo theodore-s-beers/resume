@@ -26,7 +26,7 @@ const resume = {
     {
       from: "2024-08",
       to: "2025-06",
-      title: "Research Software Engineer; Associate Researcher",
+      title: "Research Software Engineer, DevOps/MLOps; Associate Researcher",
       institution: "Drexel University",
       department: "Colleges of Engineering, Computing & Informatics",
       project:
