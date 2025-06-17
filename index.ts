@@ -9,7 +9,7 @@ const resume = {
     website: "https://www.theobeers.com/",
     github: "https://github.com/theodore-s-beers",
     twitter: "https://x.com/theodorebeers",
-    bluesky: "https://bsky.app/profile/katomyomachia.bsky.social",
+    bluesky: "https://bsky.app/profile/t6e.dev",
     scholar: "https://scholar.google.com/citations?user=dqd1ahUAAAAJ",
     keybase: "https://keybase.io/theobeers",
   },
