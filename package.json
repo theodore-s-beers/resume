@@ -1,9 +1,17 @@
 {
   "name": "resume",
+  "private": true,
   "type": "module",
   "module": "index.ts",
+  "scripts": {
+    "check": "tsc",
+    "fmt": "oxfmt",
+    "lint": "oxfmt --check && oxlint"
+  },
   "devDependencies": {
-    "bun-types": "^1.3.0",
-    "typescript": "^5.9.3"
+    "bun-types": "^1.3.14",
+    "oxfmt": "^0.50.0",
+    "oxlint": "^1.65.0",
+    "typescript": "^6.0.3"
   }
 }

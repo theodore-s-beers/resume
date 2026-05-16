@@ -1,5 +1,3 @@
-import { type Serve } from "bun";
-
 const resume = {
   name: "Theodore S. Beers",
   tagline: "Research software engineer; PhD Persian & Arabic philologist",
@@ -29,8 +27,7 @@ const resume = {
       title: "Research Software Engineer, DevOps/MLOps; Associate Researcher",
       institution: "Drexel University",
       department: "Colleges of Engineering, Computing & Informatics",
-      project:
-        "Platform for Accessible Data-Intensive Science and Engineering (NSF)",
+      project: "Platform for Accessible Data-Intensive Science and Engineering (NSF)",
       notes: ["TBW"],
     },
     {
@@ -115,4 +112,4 @@ export default {
     resHeaders.set("Content-Type", "text/html; charset=utf-8");
     return new Response(Bun.file("./fallback.html"), { headers: resHeaders });
   },
-} satisfies Serve;
+} satisfies Bun.Serve.Options<undefined>;
